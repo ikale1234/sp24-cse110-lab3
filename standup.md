@@ -1,17 +1,24 @@
-#Standup Notes Template
+# Standup Notes Template
 
-##Attendees:
+## Attendees:
 
-###Draymond Green:
+### Draymond Green:
 **Tasks done this week:**
+
 **Plans for the upcoming week:**
 
-###Ishaan Kale:
+
+### Ishaan Kale:
+
 **Tasks done this week:**
+
 **Plans for the upcoming week:**
 
-###Joe Biden:
+
+### Joe Biden:
+
 **Tasks done this week:**
+
 **Plans for the upcoming week:**
 
 
