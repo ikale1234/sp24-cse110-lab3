@@ -4,6 +4,8 @@
     <title>Meeting Minutes April 9</title>
     <meta name="Ishaan Kale" content="width=device-width, initial-scale=1.0" >
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="i_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
     
   </head>
   <body>
@@ -17,7 +19,7 @@
             </ul>
         </nav>
         <h2>Attendees:</h2>
-        <ul>
+        <ul class="people">
             <li>Draymond Green</li>
             <li>Ishaan Kale</li>
             <li>Joe Biden</li>
@@ -26,13 +28,13 @@
 
     <section>
         <h2>Meeting Summary</h2>
-        <p>This section will briefly summarize the main points of the meeting</p>
+        <p id="sum-intro">This section will briefly summarize the main points of the meeting</p>
         <div id="meeting-summary">
         <ol>
             <li>Started off with a quick <b>prayer</b> towards <span>Lebron James</span></li>
             <li>Discussed what everyone did over the past week in relation to their to do items</li>
             <li>Discussed the great legacy of <strong>Lebron James</strong></li>
-            <li>Made predictions for the <i>future</i> of <em>Lebron James</em></li>
+            <li class="future">Made predictions for the <i>future</i> of <em>Lebron James</em></li>
             <li>During discussion time, no comments/concerns/questions were brought up</li>
             <li>Ended off with another prayer toward <a href="lebron.jpeg">Lebron James</a></li>
         </ol>
@@ -46,16 +48,18 @@
             <summary>Lebron James</summary>
             <p>6 foot 9, 250 pounds, truly an inspirational and talented being, and the greatest basketball player in history</p>
         </details>
-        <img src="lebron.jpeg" alt="Lebron James">
-        <img src="coolthing.jpeg" alt="Lebron James">
-        <img src="lebron.jpeg" alt="Lebron James">
+        <div class="images">
+        <img src="lebron.jpeg" alt="Lebron James" id="great">
+        <img src="coolthing.jpeg" alt="Lebron James" id="big">
+        <img src="lebron.jpeg" alt="Lebron James" id="great">
+        </div>
     </div>
     </section>
 
     <section>
         <h2>Tasks for the Week</h2>
         <div id="tasks-for-the-week">
-        <p>It is imperative that you complete these tasks by the next meeting on April 16</p>
+        <p id="sum-intro">It is imperative that you complete these tasks by the next meeting on April 16</p>
         <hr>
         <ol>
             <li>Listen to this inspirational audio:
@@ -75,7 +79,7 @@
                 <h2>PLZ FILL OUT !!!!</h2>
                 <fieldset>
                     <legend>Basic Info</legend>
-        
+                    <div id="basic">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required><br>
         
@@ -84,7 +88,7 @@
 
                     <label for="bday">Birth Day:</label>
                     <input type="date" id="bday" name="bday" required><br>
-                    
+                </div>
                     <h3>Gender:</h3>
                         <label for="male">Male:</label>
                         <input type="radio" id="male" name="gender" value="male" required>
@@ -133,6 +137,9 @@
 
         </ol>
 
+    </div>
+    <div id="hide">
+        <p>This text will be hidden</p>
     </div>
     </section>
 
