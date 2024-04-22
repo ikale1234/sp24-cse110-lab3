@@ -78,7 +78,7 @@ h2 {
 }
 
 #meeting-summary {
-    color: hsl(0,0,20);
+    color: hsl(0,0%,20%);
     margin-left: 3%;
     border-style: dotted;
     border-width: 4px;
@@ -98,12 +98,12 @@ h3 {
 }
 
 #quick-intermission {
-    color: color(adobe-rgb 255 200 100);
+    color: color(display-p3 1 0.5 0);
     padding: 20px 0px;
 }
 
 #TL {
-    color: color-mix(red 50%, blue 50%);
+    color: color-mix(in lch, plum, pink);
     padding-bottom: 4px;
 }
 #basic {
