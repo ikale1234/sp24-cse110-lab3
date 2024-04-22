@@ -5,27 +5,48 @@
   }
 h1 {
     color: rgb(0, 0, 255);
-    background-color: salmon;
+    background-color: antiquewhite;
+    margin: 40px 10px;
+    border-style: double;
+    border-radius: 0%;
+    border-width: 3px;
   }
 
 h2 {
     color: var(--cool-color, #FF4230);
-    background-color: cornflowerblue;
+    background-color: antiquewhite;
+    margin-bottom: 6mm;
+    margin-left: 1vw;
+    border-style:groove;
+    border-radius: 0%;
+    border-width: 3px;
+}
+#sum-intro {
+    margin-left: 2vw;
 }
 
 #meeting-summary {
     color: hsl(0,0,20);
+    margin-left: 3%;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: blueviolet;
 }
 
 h3 {
     color: maroon;
     background-color: antiquewhite;
+    margin-bottom: 30pt;
+    margin-left: 0.5em;
+    border: 2px dashed maroon;
 }
 
 #quick-intermission {
     color: color(adobe-rgb 255 200 100);
+    padding: 20px 0px;
 }
 
 #TL {
     color: color-mix(red 50%, blue 50%);
+    padding-bottom: 4px;
 }
