@@ -1,22 +1,26 @@
 /* This is a CSS file */
+:root {
+    --cool-color: #FF0000; /* Define a variable for the primary color */
+
+  }
 h1 {
     color: rgb(0, 0, 255);
   }
 
 h2 {
-    color: #FF0000
+    color: var(--cool-color, #FF4230);
 }
 
 #meeting-summary {
-    color: hsl(0,0,20)
+    color: hsl(0,0,20);
 }
 
 h3 {
-    color: maroon
+    color: maroon;
 }
 
 #quick-intermission {
-    color: color(adobe-rgb 255 200 100)
+    color: color(adobe-rgb 255 200 100);
 }
 
 #TL {
