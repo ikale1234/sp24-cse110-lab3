@@ -1,1 +1,24 @@
 /* This is a CSS file */
+h1 {
+    color: rgb(0, 0, 255);
+  }
+
+h2 {
+    color: #FF0000
+}
+
+#meeting-summary {
+    color: hsl(0,0,20)
+}
+
+h3 {
+    color: maroon
+}
+
+#quick-intermission {
+    color: color(adobe-rgb 255 200 100)
+}
+
+#TL {
+    color: color-mix(red 50%, blue 50%);
+}
